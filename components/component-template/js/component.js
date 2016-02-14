@@ -1,4 +1,4 @@
-'ues strict';
+'use strict';
 
 (function(){
   // JS код компонента
