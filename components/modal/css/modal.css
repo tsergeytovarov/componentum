@@ -1,0 +1,24 @@
+/* line 2, /Users/sergejpopov/Documents/PROJECTS/componentum/components/modal/sass/modal.scss */
+html, body {
+  height: 100%; }
+
+/* line 6, /Users/sergejpopov/Documents/PROJECTS/componentum/components/modal/sass/modal.scss */
+.modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); }
+  /* line 14, /Users/sergejpopov/Documents/PROJECTS/componentum/components/modal/sass/modal.scss */
+  .modal-content {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+         -o-transform: translateX(-50%);
+            transform: translateX(-50%);
+    width: 660px;
+    background-color: #ffffff;
+    padding: 20px; }
