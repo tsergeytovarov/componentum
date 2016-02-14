@@ -1,0 +1,26 @@
+{
+  "name": "Componentum",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Библиотека компонентов, используемая в работе.",
+  "author": "Сергей Попов",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tsergeytovarov/componentum"
+  },
+  "bugs": {
+    "url": "https://github.com/tsergeytovarov/componentum/issues"
+  },
+  "homepage": "https://github.com/tsergeytovarov/componentum",
+  "dependencies": {
+    "eslint": "^1.10.3",
+    "http-server": "^0.8.5"
+  },
+  "scripts": {
+    "test": "eslint js/",
+    "start": "http-server ."
+  },
+  "engines": {
+    "node": "^5.0.0"
+  }
+}
