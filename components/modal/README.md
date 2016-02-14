@@ -1,5 +1,7 @@
 #  Компонент модального окна
 
+[Прмиеры работы](http://tsergeytovarov.github.io/componentum/components/modal/)
+
 Базовая разметка модального окна
 
 ```html
