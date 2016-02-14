@@ -16,12 +16,68 @@
     <div class="container">
       <h1>Компонент модального окна</h1>
 
-      <p>Базовый пример модального окна. <a href="#" class="js-get-modal" data-target=".modal-example"></a></p>
+      <p>Базовый пример модального окна. <a href="#" class="js-get-modal" data-target=".modal-example"> Открыть модальное окно.</a></p>
+
+      <p>Пример модального окна с контентом превосходящим высоту страницы. <a href="#" class="js-get-modal" data-target=".modal-example-big"> Открыть модальное окно.</a></p>
+
+      <p>Пример открытия модального окна по селетору идентификатора. <a href="#" class="js-get-modal" data-target="#modal-id"> Открыть модальное окно.</a></p>
+
+      <p>Пример открытия модального окна через которое открывается другое модальное окно. <a href="#" class="js-get-modal" data-target=".js-modal-first"> Открыть модальное окно.</a></p>
+
+      <p>Пример открытия модального окна без указания цели. <a href="#" class="js-get-modal"> Открыть модальное окно.</a></p>
+
     </div>
 
     <div class="modal modal-example">
       <div class="modal-content">
         <button class="js-modal-close" type="button">Закрыть окно</button>
+        <h2>Обычное модальное окно.</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe quia cupiditate magnam maxime pariatur, distinctio, quaerat officiis veniam. Aperiam odio, sequi voluptate est perferendis incidunt cum rerum repellendus cumque molestias.</p>
+      </div>
+    </div>
+
+    <div class="modal" id="modal-id">
+      <div class="modal-content">
+        <button class="js-modal-close" type="button">Закрыть окно</button>
+        <h2>Модальное окно с идентификатором.</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe quia cupiditate magnam maxime pariatur, distinctio, quaerat officiis veniam. Aperiam odio, sequi voluptate est perferendis incidunt cum rerum repellendus cumque molestias.</p>
+      </div>
+    </div>
+
+    <div class="modal js-modal-first">
+      <div class="modal-content">
+        <button class="js-modal-close" type="button">Закрыть окно</button>
+        <h2>Модальное окно 1 уровень.</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe quia cupiditate magnam maxime pariatur, distinctio, quaerat officiis veniam. Aperiam odio, sequi voluptate est perferendis incidunt cum rerum repellendus cumque molestias.</p>
+        <p><a href="#" class="js-get-modal" data-target=".js-modal-second">Модальное окно 2 уровень.</a></p>
+      </div>
+    </div>
+
+    <div class="modal js-modal-second">
+      <div class="modal-content">
+        <button class="js-modal-close" type="button">Закрыть окно</button>
+        <h2>Модальное окно 2 уровень.</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe quia cupiditate magnam maxime pariatur, distinctio, quaerat officiis veniam. Aperiam odio, sequi voluptate est perferendis incidunt cum rerum repellendus cumque molestias.</p>
+      </div>
+    </div>
+
+    <div class="modal modal-example-big">
+      <div class="modal-content">
+        <button class="js-modal-close" type="button">Закрыть окно</button>
+        <h2>Очень длинное модальное окно.</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe quia cupiditate magnam maxime pariatur, distinctio, quaerat officiis veniam. Aperiam odio, sequi voluptate est perferendis incidunt cum rerum repellendus cumque molestias.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe quia cupiditate magnam maxime pariatur, distinctio, quaerat officiis veniam. Aperiam odio, sequi voluptate est perferendis incidunt cum rerum repellendus cumque molestias.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe quia cupiditate magnam maxime pariatur, distinctio, quaerat officiis veniam. Aperiam odio, sequi voluptate est perferendis incidunt cum rerum repellendus cumque molestias.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe quia cupiditate magnam maxime pariatur, distinctio, quaerat officiis veniam. Aperiam odio, sequi voluptate est perferendis incidunt cum rerum repellendus cumque molestias.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe quia cupiditate magnam maxime pariatur, distinctio, quaerat officiis veniam. Aperiam odio, sequi voluptate est perferendis incidunt cum rerum repellendus cumque molestias.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe quia cupiditate magnam maxime pariatur, distinctio, quaerat officiis veniam. Aperiam odio, sequi voluptate est perferendis incidunt cum rerum repellendus cumque molestias.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe quia cupiditate magnam maxime pariatur, distinctio, quaerat officiis veniam. Aperiam odio, sequi voluptate est perferendis incidunt cum rerum repellendus cumque molestias.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe quia cupiditate magnam maxime pariatur, distinctio, quaerat officiis veniam. Aperiam odio, sequi voluptate est perferendis incidunt cum rerum repellendus cumque molestias.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe quia cupiditate magnam maxime pariatur, distinctio, quaerat officiis veniam. Aperiam odio, sequi voluptate est perferendis incidunt cum rerum repellendus cumque molestias.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe quia cupiditate magnam maxime pariatur, distinctio, quaerat officiis veniam. Aperiam odio, sequi voluptate est perferendis incidunt cum rerum repellendus cumque molestias.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe quia cupiditate magnam maxime pariatur, distinctio, quaerat officiis veniam. Aperiam odio, sequi voluptate est perferendis incidunt cum rerum repellendus cumque molestias.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe quia cupiditate magnam maxime pariatur, distinctio, quaerat officiis veniam. Aperiam odio, sequi voluptate est perferendis incidunt cum rerum repellendus cumque molestias.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe quia cupiditate magnam maxime pariatur, distinctio, quaerat officiis veniam. Aperiam odio, sequi voluptate est perferendis incidunt cum rerum repellendus cumque molestias.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe quia cupiditate magnam maxime pariatur, distinctio, quaerat officiis veniam. Aperiam odio, sequi voluptate est perferendis incidunt cum rerum repellendus cumque molestias.</p>
       </div>
     </div>
