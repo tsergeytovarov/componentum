@@ -3,18 +3,25 @@ html, body {
   height: 100%; }
 
 /* line 6, /Users/sergejpopov/Documents/PROJECTS/componentum/components/modal/sass/modal.scss */
+.body-modal {
+  overflow-y: hidden; }
+
+/* line 10, /Users/sergejpopov/Documents/PROJECTS/componentum/components/modal/sass/modal.scss */
 .modal {
+  display: none;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
+  overflow-y: scroll;
   background-color: rgba(0, 0, 0, 0.5); }
-  /* line 14, /Users/sergejpopov/Documents/PROJECTS/componentum/components/modal/sass/modal.scss */
+  /* line 20, /Users/sergejpopov/Documents/PROJECTS/componentum/components/modal/sass/modal.scss */
   .modal-content {
     position: absolute;
     top: 50px;
     left: 50%;
+    margin-bottom: 50px;
     -webkit-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
          -o-transform: translateX(-50%);
@@ -22,3 +29,6 @@ html, body {
     width: 660px;
     background-color: #ffffff;
     padding: 20px; }
+  /* line 31, /Users/sergejpopov/Documents/PROJECTS/componentum/components/modal/sass/modal.scss */
+  .modal-open {
+    display: block; }
